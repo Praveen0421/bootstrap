@@ -1,0 +1,201 @@
+$green: #0acf83;
+$primary-blue: #00e1ff;
+$primary-grey: #9aa2b1;
+$light-black: #15181b;
+$dark-black: #111111;
+$white: #fff;
+$font-family: "Reem Kufi Fun", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+html,
+body {
+  height: 100%;
+  background-color: $dark-black;
+}
+// aside side bar
+.aside {
+  padding: 15px 20px;
+  background: $light-black;
+  .header-block {
+    display: flex;
+    align-items: center;
+    .header-icon {
+      font-size: 24px;
+      color: $green;
+    }
+  }
+}
+// aside header title
+.header-block {
+  .header-title {
+    margin-left: 20px;
+    font-size: 16px;
+    color: $white;
+    font-weight: 600;
+  }
+}
+// sidebar opition li
+.option {
+  margin-top: 40px;
+  .list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+    padding-left: 0px;
+    .item {
+      padding: 16px 100px 16px 16px;
+      font-size: 16px;
+      font-weight: 600;
+      color: $white;
+      line-height: 1rem;
+      border-radius: 10px;
+    }
+  }
+}
+// if active class is added the only active style will work
+.list-items {
+  .item {
+    &.active {
+      color: $primary-blue;
+      background-color: $dark-black;
+    }
+    &:hover {
+      color: $primary-blue;
+      background-color: $dark-black;
+    }
+  }
+}
+// container-header
+
+.container-header {
+  border-bottom: 1.5px solid;
+  padding: 20px 20px;
+  .header-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $white;
+  }
+}
+.container-header {
+  .user-image-block {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: top;
+    background: $white;
+
+    .user-image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+// user content
+.user-content {
+  margin-left: 18px;
+  .user-name {
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .user-contact {
+    line-height: 0.8rem;
+    color: $primary-grey;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.card-container {
+  padding: 10px 10px;
+  .cards{
+    background:$light-black;
+    border-radius: 15px;
+    padding: 0px 18px;
+    flex-grow: 1;
+
+  }
+}
+// card-top-section
+.card-top-section{
+  margin-top:20px ;
+  margin-bottom:10px;
+}
+// card-image-block
+.card-image-block {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  background: $light-black;
+  border-radius: 50%;
+  overflow: hidden;
+  border-left: 5px solid $dark-black;
+  border-right:5px solid ;
+  transform: rotate(60deg);
+  .card-image {
+    position: relative;
+    top: -10px;
+    right: 20px;
+    transform: rotate(-60deg) scale(1.2);
+    height: 100%;
+    width: 100%;
+  }
+}
+// card-user-name
+.card-user-name {
+  font-size: 20px;
+  color: $primary-blue;
+  font-weight: 600px;
+}
+.designate {
+  font-size: 14px;
+  color: $primary-grey;
+  font-weight: 500;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0px;
+  .card-data {
+
+    .card-data-icon {
+      color: $primary-grey;
+      margin-right: 6px;
+    }
+    .card-data-text {
+      color: $white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+.card-bod {
+ padding-bottom: 5px;
+  .action-btns {
+    display: flex;
+    list-style: none;
+ padding-left: 0px;
+ gap:20px;
+    .icon1 {
+      color: #845dca;
+    }
+    .icon2{
+      color:#fec700;
+    }
+    .icon3{
+      color: #00e1f7;
+    }
+    .icon4{
+      color: #e03435;
+    }
+  }
+}

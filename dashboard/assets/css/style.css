@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi Fun", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #111111;
+}
+
+.aside {
+  padding: 15px 20px;
+  background: #15181b;
+}
+.aside .header-block {
+  display: flex;
+  align-items: center;
+}
+.aside .header-block .header-icon {
+  font-size: 24px;
+  color: #0acf83;
+}
+
+.header-block .header-title {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.option {
+  margin-top: 40px;
+}
+.option .list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  list-style: none;
+  padding-left: 0px;
+}
+.option .list-items .item {
+  padding: 16px 100px 16px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1rem;
+  border-radius: 10px;
+}
+
+.list-items .item.active {
+  color: #00e1ff;
+  background-color: #111111;
+}
+.list-items .item:hover {
+  color: #00e1ff;
+  background-color: #111111;
+}
+
+.container-header {
+  border-bottom: 1.5px solid;
+  padding: 20px 20px;
+}
+.container-header .header-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.container-header .user-image-block {
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  background: #fff;
+}
+.container-header .user-image-block .user-image {
+  height: 100%;
+  width: 100%;
+}
+
+.user-content {
+  margin-left: 18px;
+}
+.user-content .user-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-content .user-contact {
+  line-height: 0.8rem;
+  color: #9aa2b1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-container {
+  padding: 10px 10px;
+}
+.card-container .cards {
+  background: #15181b;
+  border-radius: 15px;
+  padding: 0px 18px;
+  flex-grow: 1;
+}
+
+.card-top-section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card-image-block {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: #15181b;
+  border-radius: 50%;
+  overflow: hidden;
+  border-left: 5px solid #111111;
+  border-right: 5px solid;
+  transform: rotate(60deg);
+}
+.card-image-block .card-image {
+  position: relative;
+  top: -10px;
+  right: 20px;
+  transform: rotate(-60deg) scale(1.2);
+  height: 100%;
+  width: 100%;
+}
+
+.card-user-name {
+  font-size: 20px;
+  color: #00e1ff;
+  font-weight: 600px;
+}
+
+.designate {
+  font-size: 14px;
+  color: #9aa2b1;
+  font-weight: 500;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0px;
+}
+.card-content .card-data .card-data-icon {
+  color: #9aa2b1;
+  margin-right: 6px;
+}
+.card-content .card-data .card-data-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-bod {
+  padding-bottom: 5px;
+}
+.card-bod .action-btns {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  gap: 20px;
+}
+.card-bod .action-btns .icon1 {
+  color: #845dca;
+}
+.card-bod .action-btns .icon2 {
+  color: #fec700;
+}
+.card-bod .action-btns .icon3 {
+  color: #00e1f7;
+}
+.card-bod .action-btns .icon4 {
+  color: #e03435;
+}/*# sourceMappingURL=style.css.map */
